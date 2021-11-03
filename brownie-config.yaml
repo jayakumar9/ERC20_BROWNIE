@@ -1,0 +1,8 @@
+# create this file under ERC20_BROWNIE
+
+dependencies:
+  -OpenZeppelin/openzeppelin-contracts@4.2.0
+compiler:
+  solc:
+    remappings:
+      -'@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.2.0'
